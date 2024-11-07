@@ -147,7 +147,7 @@ Algoritma paling sederhana yang cocok untuk klasifikasi adalah logistic regressi
 - **Kecepatan** : Berkaitan dengan kesedehanaan sebelumnya, model logistic regression memiliki waktu _processing_ yang cukup cepat. Hal ini dikarenakan model yang sederhana ini tidak akan mengonsumsi daya komputasi yang terlalu besar berkat kesederhanaannya.
 
 Berikut cara implementasinya:
-```pyhton
+```python
 from sklearn.linear_model import LogisticRegression
 clf = LogisticRegression()
 clf.fit(X_train , y_train)
